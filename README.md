@@ -44,11 +44,12 @@ code-review-bot/
 ├── standards_docs/             # Markdown docs used by RAG
 │   ├── pep8.md
 │   └── owasp_top_10.md
+├── docs/
+│   ├── deployment_guide.md     # Local & Cloud installation guide
+│   ├── testing_strategy.md     # Automated and manual QA scripts
+│   └── viva_questions.md       # College defense prep Q&A
 ├── docker-compose.yml          # Container composer configuration
 ├── README.md                   # Project landing page
-├── deployment_guide.md        # Local & Cloud installation guide
-├── testing_strategy.md         # Automated and manual QA scripts
-├── viva_questions.md           # College defense prep Q&A
 └── resume_description.md       # Tailored CV snippets
 ```
 
