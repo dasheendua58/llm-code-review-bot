@@ -128,7 +128,7 @@ http://localhost:5000
 
 ### Login Page
 
-![Login](screenshots/login.png)
+![Login](screenshots/login-page.png)
 
 ---
 
@@ -140,13 +140,13 @@ http://localhost:5000
 
 ### New Review
 
-![New Review](screenshots/new-review.png)
+![New Review](screenshots/new-review-page.png)
 
 ---
 
 ### Review Results
 
-![Review Results](screenshots/review-result.png)
+![Review Results](screenshots/review-result-page.png)
 
 ---
 
