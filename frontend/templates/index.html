@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Code Review Bot - AI-Powered Automated Architect</title>
+  
+  <!-- Google Fonts: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f4fa',
+              100: '#dce5f4',
+              200: '#bfd0ea',
+              300: '#93b0dc',
+              400: '#608bc9',
+              500: '#3e6db3',
+              600: '#2d5392',
+              700: '#254477',
+              800: '#223b65',
+              900: '#203455',
+              950: '#152139',
+            },
+            darkbg: {
+              50: '#1e293b',
+              100: '#0f172a',
+              200: '#0b0f19',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- ES Modules Import Map -->
+  <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom": "https://esm.sh/react-dom@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "lucide-react": "https://esm.sh/lucide-react@0.368.0"
+      }
+    }
+  </script>
+</head>
+<body class="bg-brand-50 dark:bg-darkbg-200 text-slate-800 dark:text-slate-100 min-h-screen flex flex-col font-sans transition-colors duration-300">
+  
+  <!-- App Mounting Point -->
+  <div id="root" class="flex-grow flex flex-col"></div>
+
+  <!-- Babel Standalone for in-browser JSX compilation -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Main Application JavaScript -->
+  <script type="text/babel" data-type="module" src="/static/js/app.js"></script>
+</body>
+</html>
